@@ -1,0 +1,152 @@
+// https://github.com/JarateKing/jarconfig/blob/master/cfg/echoes/binds.cfg enjoying the key organization here.
+// This cfg serves as an all-class vanilla binds reference to prevent confusing my memory of what should go where and do what. https://wiki.teamfortress.com/wiki/List_of_default_keys
+// The other class cfgs have their own variations of these binds making full use of aliases to simplify complex strategies or binds. Here I'll just note what the vanilla cvar does and what kind of scripts would work well in it's place
+
+// -------------
+// |   Mouse   |
+// -------------
+bind mouse1      "+attack"
+bind mouse2      "+attack2"   // Det stickies, spin minigun, deploy uber, zoom sniper rifle, cloak/decloak with invis watch/dead ringer, charge with a shield, airblast, drop sandvich, and retract huntsman. Soldier and Scout have an easy time sacrifizing Mouse2 for easier weapon swapping
+bind mouse3      "+attack3"   // Activates the Heavy's Rage or the Medic's Projectile Shield in Mann vs. Machine when either meter is full. Worth aliasing with something for an entirely different gamemode like +use for old jumpmaps or slender fortress flashlight idk.
+bind mouse4      ""           // ^ or a voicemask for medic full uber.
+bind mouse5      "slot3"      // slot commands don't play well with the spy's disguise menu as they are also used for menu navigation. could be worth aliasing lastinv with spy as that cvar cancels the disguise menu. lastinv also cancels engie PDA but that won't ever come up. Alternatively, use a script that disguises without the kit.
+bind mwheelup    "slot1"      // ^ invnext and invprev are used by default for weapon swapping and they could be useful for something like the Fists of Steel holster skip where if you lack a secondary the swap is even slower than normal
+bind mwheeldown  "slot2"      // slot4 and slot5 are used for Engie's PDA and Spy's disguise kit. Those will have scripts to make these cvars unnecessary
+
+// ------------
+// |   WASD   |
+// ------------
+bind W  "+forward"   //Controls movement. Mastercom helpfully has a vpk addon for Null-cancelling movement so only +mf, +ml, +mb, and +mr need to be bound here.
+bind A  "+moveleft"
+bind S  "+back"
+bind D  "+moveright"
+
+// ---------------
+// |   Numbers   |
+// ---------------
+bind 1  "+use_action_slot_item"   // Pick up weapons dropped by players. Also used to cast magic spells. Could be scripted alongside another underutilized command like +attack3 for keyboard economy. 2 is a good key for calling medic if so. or uber voicemasking
+bind 2  ""                        // Leaving open for calling medic on if I want E bound to something else
+bind 3  "slot6"                   // Selects the Grappling Hook in Mannpower Mode (or if the server allows Grapples)
+bind 4  "+inspect"                // Inspect Target or Item such as viewing another player's loadout or a fallen weapon
+bind 5  ""
+bind 6  ""
+bind 7  "slot7"                   // Interact with menus.
+bind 8  "slot8"
+bind 9  "slot9"
+bind 0  "slot10"
+
+// --------------------
+// |   Function Keys  |
+// --------------------
+bind f1   "screenshot"            // Produces images in the tga format. Alias jpeg_quality and jpeg instead to use a better format and have more control over the image quality as well.
+bind f2   "save_replay"
+bind f3   ""                      // Good spot for a bug fix bind which uses various commands to fix looping sounds, broken hud elements, invisible player glitches, etc.
+bind f4   "player_ready_toggle"   // Indicate you are ready to play in Mann vs. Machine and Competitive Mode. Once all players have readied up, the wave or match starts.
+bind f5   "abuse_report_queue"    // Takes Steam Abuse Screenshot
+bind f6   "askconnect_accept"     // Used to accept a server's request to connect you to a different server.
+bind f7   ""
+bind f8   ""
+bind f9   ""
+bind f10  "quit prompt"           // Quits the game. Loadout script turns the original command into an alias for saving loadouts https://github.com/jooonior/tf2-loadouts-script
+bind f11  ""
+bind f12  ""
+
+// ---------------------
+// |   Common Others   |
+// ---------------------
+bind ctrl       ""
+bind rctrl      ""
+bind space      "+jump"             // Alias with +moveup to control upward water movement
+bind tab        "+showscores"       // Alias to show network settings, clear memory, clear decals, show fps, etc.
+bind alt        ""                  // A good place to drop class specific scripts. spy's lastdisguise command. Call medic for engie and medic would also go well here as Q, E, R, and F is prime real estate for building/vaccinator scripts
+bind ralt       "dropitem"          // Drop the Intelligence, the Australium briefcase, Powerups, or Player Destruction Pickups. Used in uber scripts so Medic can keep his invincibility
+bind shift      "+duck"             // Alias with +movedown to control downaward water movement. Aliased with engie to toggle the Eureka Effect's teleport destination. Can be aliased for easily toggling other scripts, most common being eureka effect teleports.
+bind rshift     "+context_action"   // Contextual Action/Taunt.
+bind enter      ""
+bind capslock   "+voicerecord"      // Speak to players on the same team, if server's CVAR sv_alltalk is set to 0. If 1, all players on the server receive your voice chat. Script for toggle instead of hold down.
+bind backspace  "kill"              // Alias with vacc script reset as medic respawns on bullet breaking the script if another resistance was active
+
+// -----------------------
+// |   Uncommon Others   |
+// -----------------------
+bind ,           "open_charinfo_backpack"
+bind .           "show_quest_log"           // Opens contracts drawer
+bind /           "callvote"
+bind semicolon   ""
+bind '           ""
+bind [           "spec_mode"                // Change spectator mode. Spectator modes are: First-person, Third-person, and noclip, if the server allows it.
+bind ]           "spec_prev"                // Swap to prior spectator target
+bind \           "spec_next"                // swap to next spectator target. attack, attack2, and +jump also perform the same functions as spec_next, spec_prev, and spec_mode and it is expected that those will be in the standard places of Mouse1, Mouse2, and Spacebar. I like to test weird binds however so it's simpler to just bind them individually.              
+bind -           ""
+bind =           "explode"                  // Alias with vacc script reset as medic respawns on bullet breaking the script.
+bind home        ""
+bind end         ""
+bind ins         ""
+bind pgup        ""
+bind pgdn        ""
+bind del         ""
+bind uparrow     "load_itempreset 0"        // These four cvars load class loadouts A, B, C, and D. Replace with resupply script from https://github.com/jooonior/tf2-loadouts-script for the extra respawn functionality.
+bind leftarrow   "load_itempreset 1"        // Also alias them to pull out medigun and sticky launcher on respawn, vaccinator reset, set class specific network settings, or for the ABCD variations set subclass binds.
+bind downarrow   "load_itempreset 2"        // Loadouts.resup would go in ctrl and simply respawns you with the same loadout.
+bind rightarrow  "load_itempreset 3"
+
+// --------------
+// |   Numpad   |
+// --------------
+bind numlock        ""
+bind kp_ins         ""
+// 0 ^
+bind kp_end         ""
+// 1
+bind kp_downarrow   ""
+// 2
+bind kp_pgdn        ""
+// 3
+bind kp_leftarrow   ""
+// 4
+bind kp_5           ""
+// 5
+bind kp_rightarrow  ""
+// 6
+bind kp_home        ""
+// 7
+bind kp_uparrow     ""
+// 8
+bind kp_pgup        ""
+// 9
+bind kp_slash       ""
+bind kp_multiply    ""
+bind kp_minus       ""
+bind kp_plus        ""    // Good choice for a fast class swap script to respawn even faster on instant respawn servers. Num pad is also a good place to put class swap cvars.
+bind kp_enter       ""
+bind kp_del         ""
+
+// ---------------
+// |   Letters   |
+// ---------------
+//bind a  ""
+bind b  "open_charinfo_direct"            // Opens character loadout.
+bind c  "voice_menu_3"                    // https://wiki.teamfortress.com/wiki/Voice_commands Script to simplify from using 1-9 numbers keys to two presses of 1-3 and to give them readable names e.g. alias vo_medic "voicemenu 0 0". Also useful for making voicemasking scripts for Medic's uber, Engie's building, and Heavy's sandvich noms.
+//bind d  ""
+bind e  "+helpme"                         // calls for medic same as "voicemenu 0 0". Can be scripted for a toggle with voicemenu 1 7 "Activate Charge!"
+bind f  ""                                // Keeping F, R, and Q empty so that they can be used for class scripts like engie quick building or vaccinator toggling. E remains the medic call button only out of 2500 hours of muscle memeory, but it is easy to rebind.
+bind g  ""
+bind h  ""
+bind i  "showmapinfo"
+bind j  "cl_trigger_first_notification"   // View/Accept the topmost alert. e.g. Viewing items received from the item drop system, requests to join a game, trading requests etc.
+bind k  "cl_decline_first_notification"   // Remove/Decline the topmost alert.
+bind l  ""
+bind m  "changeteam"
+bind n  "changeclass"
+bind o  ""
+bind p  "impulse 201"                     // Spray bind.
+bind q  ""
+bind r  "+reload"                         // Opens the Eureka Effect teleport menu, switches Vaccinator resistances , and activates Hitman's Heatmaker Focus. Also works like cvar disguiseteam with the Spy's Disguise Kit to change the disguise team. very little reason to have bound aside from scripts for these functions
+//bind s  ""
+bind t  "say_team"                        // Text chat to all players on your team
+bind u  ""
+bind v  "+taunt"                          // Script to skip deploy time on heavy's sandvich
+//bind w  ""
+bind x  "voice_menu_2"
+bind y  "say"                             // Text chat to all players
+bind z  "voice_menu_1"

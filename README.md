@@ -7,3 +7,6 @@ In particular, I found these people to be the best and most consistent sources o
 - JarateKing for the many useful scripts in his [Jarconfig](https://github.com/JarateKing/jarconfig) and the extensive scripting knowledge therein.
 - Timepath. A very knowledgeable scripter with his own [Config](https://github.com/TimePath/tf2-config) and contributer to the [Tf2scripts reddit](https://www.reddit.com/r/Tf2Scripts/).
 - [Genemilder](https://www.reddit.com/user/genemilder). High level scripter and prior moderator of [Tf2scripts reddit](https://www.reddit.com/r/Tf2Scripts/)
+
+## Overrides Folder
+** Execs Folder** Yoinked from [jarconfig](https://github.com/JarateKing/jarconfig/tree/master/cfg/execs) for the functionality of a handful of useful aliases.

@@ -9,4 +9,4 @@ In particular, I found these people to be the best and most consistent sources o
 - [Genemilder](https://www.reddit.com/user/genemilder). High level scripter and prior moderator of [Tf2scripts reddit](https://www.reddit.com/r/Tf2Scripts/)
 
 ## Overrides Folder
-** Execs Folder** Yoinked from [jarconfig](https://github.com/JarateKing/jarconfig/tree/master/cfg/execs) for the functionality of a handful of useful aliases.
+__Execs Folder__ Yoinked from [jarconfig](https://github.com/JarateKing/jarconfig/tree/master/cfg/execs) for the functionality of a handful of useful aliases.

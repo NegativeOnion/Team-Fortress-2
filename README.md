@@ -9,4 +9,8 @@ In particular, I found these people to be the best and most consistent sources o
 - [Genemilder](https://www.reddit.com/user/genemilder). High level scripter and prior moderator of [Tf2scripts reddit](https://www.reddit.com/r/Tf2Scripts/)
 
 ## Overrides Folder
-__Execs Folder__ Yoinked from [jarconfig](https://github.com/JarateKing/jarconfig/tree/master/cfg/execs) for the functionality of a handful of useful aliases.
+__Execs Folder__ : Yoinked from [jarconfig](https://github.com/JarateKing/jarconfig/tree/master/cfg/execs) for the functionality of a handful of useful aliases.
+
+__aliases__ : A collection of basic aliases used across all the classes with sources
+
+__autoexec__ : Individual commands I found useful to change. One of the things I disliked most while trawling through other people's cfgs was the lack of documentation within, so everything in my autoexec is organized alphabetically underneath the cvar prefix (sv_, tf_, cl_, etc) with full documentation of defaults, min to max values, and functionality from the tf2 dev wiki and mastercomfig docs. 

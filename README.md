@@ -30,5 +30,4 @@ Contains the various modifications for the game that I enjoy using. Downloaded c
 
 [Domination Removal](https://gamebanana.com/mods/36617) : 8 year old mod that removes a great deal of the domination sound and ui effects
 
-[Solarlight HUD](https://github.com/SolarLightTF2/SolarLightHUD/tree/b7059e253051b24b2b90b37576cbc35baec005c6) 
-[Comfig.huds mirror](https://comfig.app/huds/page/solarlight-hud/)
+[Solarlight HUD](https://github.com/SolarLightTF2/SolarLightHUD/tree/b7059e253051b24b2b90b37576cbc35baec005c6) : Comfig.huds [mirror](https://comfig.app/huds/page/solarlight-hud/)

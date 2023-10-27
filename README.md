@@ -27,3 +27,5 @@ __vaccinator__ : a vaccinator script by [Tmob](https://gist.github.com/tmob03/fc
 
 ## Custom Folder
 Contains the various modifications for the game that I enjoy using. Downloaded copies of zips and vpks on 10/26/23. Of course, you should download from the original source in case of any updates since then.
+
+[Domination Removal](https://gamebanana.com/mods/36617) 8 year old mod that removes a great deal of the domination sound and ui effects

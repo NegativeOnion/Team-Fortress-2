@@ -24,3 +24,6 @@ __listenserver, modules, post_comfig, & pre_comfig__ : premade cfgs by mastercom
 __regen__ : Timepath script for keeping a resupply cabinet locked onto the player. Useful for practicing explosive jumps.
 
 __vaccinator__ : a vaccinator script by [Tmob](https://gist.github.com/tmob03/fceddfa38ab324f91d6177a0771d11ab) which works very well. Gets you to the exact resistances you want with a single press and is very resilient to desyncs, besides dying.
+
+## Custom Folder
+Contains the various modifications for the game that I enjoy using. Downloaded copies of zips and vpks on 10/26/23. Of course, you should download from the original source in case of any updates since then.

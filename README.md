@@ -26,8 +26,32 @@ __regen__ : Timepath script for keeping a resupply cabinet locked onto the playe
 __vaccinator__ : a vaccinator script by [Tmob](https://gist.github.com/tmob03/fceddfa38ab324f91d6177a0771d11ab) which works very well. Gets you to the exact resistances you want with a single press and is very resilient to desyncs, besides dying.
 
 ## Custom Folder
-Contains the various modifications for the game that I enjoy using. Downloaded copies of zips and vpks on 10/26/23. Of course, you should download from the original source in case of any updates since then.
+Contains the various modifications for the game that I enjoy using. Copies of zips and vpks made on 10/26/23. Of course, you should download from the original source in case of any updates since then.
 
-[Domination Removal](https://gamebanana.com/mods/36617) : 8 year old mod that removes a great deal of the domination sound and ui effects
+[Domination Removal](https://gamebanana.com/mods/36617) : 8 year old mod that removes a great deal of the domination sound and ui effects.
 
-[Solarlight HUD](https://github.com/SolarLightTF2/SolarLightHUD/tree/b7059e253051b24b2b90b37576cbc35baec005c6) : Comfig.huds [mirror](https://comfig.app/huds/page/solarlight-hud/)
+[Solarlight HUD](https://github.com/SolarLightTF2/SolarLightHUD/tree/b7059e253051b24b2b90b37576cbc35baec005c6) : Comfig.huds [mirror](https://comfig.app/huds/page/solarlight-hud/).
+
+[TF2 Ultimate Visual Fix Pack](https://github.com/agrastiOs/Ultimate-TF2-Visual-Fix-Pack) : Contains both the 000 and .dir folder needed for the mod to work with a small edit to remove some arrow particles from the added jumper explosion sfx.
+
+[Horsie's Viewmodel Editor](https://gamebanana.com/tools/10146) : Most powerful viewmodel editing tool for the game.
+
+[ahud](https://github.com/n0kk/ahud) : Comfig.huds [mirror](https://comfig.app/huds/page/ahud/).
+
+[Altered Short Circuit FX](https://gamebanana.com/mods/11900)
+
+[Better Kill Icons](https://gamebanana.com/mods/406361)
+
+[Disable Miss Pauling's Contract Alerts](https://gamebanana.com/mods/325900)
+
+__hitsounds__ : Uses the classic quake hitsound for regular hits and the [Ultrakill parry sfx](https://youtu.be/rcXRwD9MPDI?t=7) for kills.
+
+[loadouts](https://github.com/jooonior/tf2-loadouts-script) : Resupply script
+
+[Mastercomfig](https://comfig.app/app/) : Contains the Medium-High preset, disable pyroland, flat mouse, no footsteps, no soundscapes, and no tutorial addons
+
+__No Muzzle Flashes w/ Sentry MF visible__ : I sadly don't recall the original TFTV thread I downloaded this from.
+
+[Transparent Flames](https://gamebanana.com/mods/348622) : Makes Flamethrowers and Dragon's Fury significantly less visually obstructive
+
+## Misc

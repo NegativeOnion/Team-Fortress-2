@@ -55,3 +55,8 @@ __No Muzzle Flashes w/ Sentry MF visible__ : I sadly don't recall the original T
 [Transparent Flames](https://gamebanana.com/mods/348622) : Makes Flamethrowers and Dragon's Fury significantly less visually obstructive
 
 ## Misc
+[Stabbystabby's everything pack](https://old.reddit.com/r/tf2/comments/6gyz69/stabbys_everything_pack_2017_editionevery_dang/) : [Internet Archive mirror](https://archive.org/details/stabby-everything-pack-2017-full)
+
+[Antigen07's Mouse Optimization Guide](https://www.overclock.net/threads/cs-s-mouse-optimization-guide.173255/) : [Internet Archive mirror](https://web.archive.org/web/20230929222545/https://www.overclock.net/threads/cs-s-mouse-optimization-guide.173255/)
+
+

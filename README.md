@@ -58,8 +58,8 @@ __No Muzzle Flashes w/ Sentry MF visible__ : I sadly don't recall the original T
 ```
 Mastercomfig medium high preset
 addons: disable pyroland, no tutorial, null-cancelling movement, flat mouse, no soundscapes, no footsteps
-i7-12700K P-cores 3.610 GHz - 5.00 GHz, GTX 1060 6GB, 16GB 3600MHz RAM, 1TB SK hynix Gold P31 PCIe NVMe Gen3 M.2 2280 Internal SSD
-          E-cores 2.700 GHz -  3.80 GHz  
+i7-12700K P-cores 3.61 GHz - 5.00 GHz, GTX 1060 6GB, 16GB 3600MHz RAM, 1TB SK hynix Gold P31 PCIe NVMe Gen3 M.2 2280 Internal SSD
+          E-cores 2.70 GHz - 3.80 GHz  
 CPU is not overclocked, base values are what is being used
 -w 1920 -h 1036 1.85:1 aspect ratio (1920x1036) gives max FOV gain http://casualhacks.net/Source-FOV-calculator.html
 ```

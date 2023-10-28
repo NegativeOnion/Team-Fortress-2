@@ -55,13 +55,14 @@ __No Muzzle Flashes w/ Sentry MF visible__ : I sadly don't recall the original T
 [Transparent Flames](https://gamebanana.com/mods/348622) : Makes Flamethrowers and Dragon's Fury significantly less visually obstructive
 
 ## Misc
+```
 Mastercomfig medium high preset
 addons: disable pyroland, no tutorial, null-cancelling movement, flat mouse, no soundscapes, no footsteps
 i7-12700K P-cores 3.610 GHz - 5.00 GHz, GTX 1060 6GB, 16GB 3600MHz RAM, 1TB SK hynix Gold P31 PCIe NVMe Gen3 M.2 2280 Internal SSD
           E-cores 2.70 GHz -  3.80 GHz  
 CPU is not overclocked, base values are what is being used
 -w 1920 -h 1036 1.85:1 aspect ratio (1920x1036) gives max FOV gain http://casualhacks.net/Source-FOV-calculator.html
-
+```
 [Stabbystabby's everything pack](https://old.reddit.com/r/tf2/comments/6gyz69/stabbys_everything_pack_2017_editionevery_dang/) : [Internet Archive mirror](https://archive.org/details/stabby-everything-pack-2017-full)
 
 [Antigen07's Mouse Optimization Guide](https://www.overclock.net/threads/cs-s-mouse-optimization-guide.173255/) : [Internet Archive mirror](https://web.archive.org/web/20230929222545/https://www.overclock.net/threads/cs-s-mouse-optimization-guide.173255/)

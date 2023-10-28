@@ -59,4 +59,4 @@ __No Muzzle Flashes w/ Sentry MF visible__ : I sadly don't recall the original T
 
 [Antigen07's Mouse Optimization Guide](https://www.overclock.net/threads/cs-s-mouse-optimization-guide.173255/) : [Internet Archive mirror](https://web.archive.org/web/20230929222545/https://www.overclock.net/threads/cs-s-mouse-optimization-guide.173255/)
 
-
+[Povohat and Kovaak's Mouse Accel Driver](https://www.kovaak.com/mouse-acceleration/)
